@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.top {
+  background-color: #1f2937;
+  padding: 10px 150px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin: 0 8px;
+}
+
+a,
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.first-part {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 600px;
+  height: 250px;
+  background-color: grey;
+  flex-shrink: 0;
+}
+
+.first-part h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 300px;
+}
+
+.random-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 150px 150px;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px;
+}
+
+.text-sections {
+  width: 200px;
+  text-align: center;
+}
+
+.text {
+  color: #1f2937;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.thor-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 100px 150px;
+}
+
+.thor-note {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 200;
+}
+
+span {
+  margin-left: auto;
+  color: #1f2937;
+  font-weight: bolder;
+}
+
+.call-section {
+  padding: 100px 150px;
+}
+
+.call-container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+  border-radius: 7px;
+}
+
+.call-button {
+  border-color: white;
+  outline: solid;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.call-text {
+  font-weight: 300;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
